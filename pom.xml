@@ -76,6 +76,15 @@
 				<version>3.1.0</version>
 			</plugin>
 		</plugins>
+		<distributionManagement>
+		<repository>
+			<id>deploymentRepo</id>
+			<name>Nexus Repo TPAchat</name>
+			<url>http://localholhost:8081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
+
+
 	</build>
 
 
