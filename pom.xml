@@ -80,14 +80,13 @@
 
 
 	</build>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus Test Repository</name>
-            <url>http://localhost:8081/nexus-2.9.2-01/content/repositories/releases</url>
-        </repository>
-    </distributionManagement>
+        <distributionManagement>
+		<repository>
+			<id>deploymentRepo</id>
+			<name>Nexus Repo TPAchat</name>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
 
 
 </project>
